@@ -1,6 +1,6 @@
 # My Todo List Web Application ✨
 
-My First Fullstack Project that I built, A simple and minimal Todo list app that features a full CRUD on the Database.
+My First Fullstack App that I built, A simple and minimal Todo list app that features a full CRUD on the Database.
 This project was built for my own learning goal : learning backend development, basic Postgres queries and implementation.
 
 Tech Stack : React (Vite) + TailwindCSS + Express.js + Node.js + PostgreSQL (Docker Image)
