@@ -1,12 +1,70 @@
-# React + Vite
+# My Todo List Web Application ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My First Fullstack Project that I built, A simple and minimal Todo list app that features a full CRUD on the Database.
+This project was built for my own learning goal : learning backend development, basic Postgres queries and implementation.
 
-Currently, two official plugins are available:
+Tech Stack : React (Vite) + TailwindCSS + Express.js + Node.js + PostgreSQL (Docker Image)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+![image](https://github.com/user-attachments/assets/0804685e-a8cc-4a5d-991a-db4675278310)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+To run this app locally, <br><br>
+Clone this repository using
+```
+git clone https://github.com/puttipongchut/todo-list-app.git
+```
+
+### Frontend Installation
+
+- Navigate to the /client directory
+  ```
+  cd client
+  ```
+- Install dependencies
+  ```
+  npm install
+  ```
+- Start the frontend environment
+  ```
+  npm run dev
+  ```
+### Backend Installation
+
+**Make sure Node.js verison v22.16.0 or higher is installed** <br>
+**And make sure you have your own .env file and variables**
+
+  - Navigate to the /server directory
+    ```
+    cd server
+    ```
+  - Install dependencies
+    ```
+    npm install
+    ```
+  - Start the backend environment
+    ```
+    node index.js
+    ```
+### PostgreSQL Setup
+
+You can run this locally using Pure PostgreSQL or Docker Image (I personally recommend Docker)
+
+For Docker setup See: https://hub.docker.com/_/postgres
+
+- For Database Schema, in psql or other providers run:
+  ```
+  CREATE DATABASE todolist;
+  ```
+  ```
+  \c todolist;
+  ```
+  ```
+  CREATE TABLE todo (
+    todo_id SERIAL PRIMARY KEY,
+    description VARCHAR(255)
+  );
+  ```
+  **SQL Code is provided in server/database.sql directory**
