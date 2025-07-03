@@ -7,7 +7,7 @@ Tech Stack : React (Vite) + TailwindCSS + Express.js + Node.js + PostgreSQL (Doc
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/0804685e-a8cc-4a5d-991a-db4675278310)
-
+![image](https://github.com/user-attachments/assets/e698405a-20b9-4562-ac15-50c4deb25bd1)
 
 ## Installation
 
