@@ -27,7 +27,7 @@ const InputTodo = ({ onAdded }) => {
 
   return (
     <div className='flex flex-col justify-center items-center py-[5rem] mt-5'>
-        <h1 className='text-3xl mb-4'>My Todo List 📋</h1>
+        <h1 className='text-3xl mb-4'>My Todo List ✨</h1>
         <form onSubmit={handleSubmitForm} className='flex items-center gap-2 mt-10'>
             <input type="text" name="todo" value={description} className='w-full border px-2 py-1 rounded' onChange={e => {
                 setDescription(e.target.value);
